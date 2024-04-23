@@ -78,13 +78,13 @@ export default function Login() {
           <div className="w-full bg-gradient-to-b from-indigo-500 to-purple-500 shadow rounded-e-xl md:mt-0 sm:max-w-md xl:p-0 justify-center content-center p-12">
             <div className="flex flex-col items-center justify-center gap-4">
               <Image
-                src="/twiska.jpg"
+                src="/next.svg"
                 alt="Logo"
                 className="w-24 h-24 object-cover rounded-full"
                 width={100}
                 height={50}
               />
-              <h1 className="text-2xl text-white font-semibold">Twiska Nadila</h1>
+              <h1 className="text-2xl text-white font-semibold">Login Page</h1>
             </div>
           </div>
         </div>
