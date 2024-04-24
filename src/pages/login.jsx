@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { login } from "../api/login"
 
 export default function Login() {
   const [formData, setFormData] = useState({
@@ -16,7 +17,7 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    loginUser(formData);
+    login(formData);
   };
 
   return (
